@@ -18,7 +18,7 @@ def generate_data():
     label=[-1, -1, 1, 1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1, -1]
     return feature,label
 class bayes:
-    ### bayes类，用于bayes相关
+    ### bayes类，用于bayes相关操作
     def transform(self,feature):
         '''
         对原始输入的特征进行相应的转换，以更好地进行模型训练
